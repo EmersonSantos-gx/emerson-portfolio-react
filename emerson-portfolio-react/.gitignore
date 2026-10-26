@@ -1,0 +1,20 @@
+# Dependencies (NUNCA envie node_modules para o GitHub/Vercel)
+node_modules
+node_modules/
+/.pnp
+.pnp.js
+
+# Build output
+dist
+dist/
+build
+build/
+
+# Logs & Env
+*.log
+npm-debug.log*
+.env
+.env.*
+.vercel
+.DS_Store
+Thumbs.db
